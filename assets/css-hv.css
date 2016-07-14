@@ -1,0 +1,111 @@
+/* Human Verification */
+
+div#submit {
+  width:201px;
+  height:62px;
+
+  box-shadow:none;
+
+  margin:0 0 12px 0;
+
+  background:transparent url('images/form-button-submit.png') left top no-repeat;
+  opacity:0.4;
+}
+
+
+div.off:hover {
+  cursor:not-allowed;
+}
+
+div.on:hover {
+  cursor:pointer;
+}
+
+div#human-verification {
+  height:110px;
+  margin:0;
+  visibility:hidden;
+}
+
+div#human-verification p {
+  padding:0 0 6px 0;
+  margin:0;
+}
+
+div#cards {
+  width:343px;
+  height:67px;
+  float:left;
+  clear:none;
+  padding:14px 0 0 0;
+  background:transparent url('images-hv/hv-arrow.png') right center no-repeat;
+}
+
+div#cards div {
+  width:48px;
+  height:57px;
+  float:left;
+  clear:none;
+  margin:0 12px 0 0;
+  background-color:transparent;
+}
+
+.drag {
+  box-shadow:0px 0px 12px rgba(255,255,255,1);
+}
+
+div#cards div:hover,
+div#cards div:active {
+  cursor:move;
+}
+
+div.hv-slot-frame {
+  width:64px;
+  height:72px;
+  float:left;
+  clear:none;
+
+  border-radius:8px;
+  border:4px solid #bbb;
+
+  margin:2px 0 0 12px;
+  background-color:#fff;
+}
+
+.slothover {
+  border-color:red;
+}
+
+.slotdrop {
+  border-color:blue;
+}
+
+div#hv-slot {
+  width:60px;
+  height:68px;
+
+  border-radius:3px;
+
+  margin:2px;
+  background-color:#eee;
+}
+
+div#hv-feedback {
+  width:74px;
+  height:60px;
+  float:left;
+  clear:none;
+  margin:11px 0 0 0;
+}
+
+div.feedback-unknown {
+  background:transparent url('images-hv/hv-feedback-unknown.png') right top no-repeat;
+}
+
+div.feedback-fail {
+  background:transparent url('images-hv/hv-feedback-fail.png') right top no-repeat;
+}
+
+div.feedback-pass {
+  background:transparent url('images-hv/hv-feedback-pass.png') right top no-repeat;
+}

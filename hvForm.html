@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Are you human?</title>
+
+<link rel="stylesheet" type="text/css" href="assets/css-hv.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js-hv.js"></script>
+
+</head>
+<body>
+
+<h1>Human Verification</h1>
+<form action="#" method="post">
+
+  <label title="Are you human?">Are you human?</label>
+  <noscript>JavaScript must be enabled to submit this form.</noscript>
+  <div id="human-verification">
+    <p id="pick"></p>
+    <div id="cards"></div>
+    <div class="hv-slot-frame" id="hv-slot-frame"><div id="hv-slot"></div></div>
+    <div id="hv-feedback" class="feedback-unknown"></div>
+  </div>
+  <div class="clear">&nbsp;</div>
+  <div id="submit" class="off" onclick="hv_submit();"></div>
+</form>
+
+</body>
+</html>
